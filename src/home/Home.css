@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.home{
+    width: 90%;
+    height: 90rem;
+    background-color: #F0EEe4;
+    padding-top: 3rem;
+    margin-left: 5%;
+    opacity: 0.7;
+
+}
+
+html{
+
+    background-image: url("/static/david-travis-5bYxXawHOQg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    width: 90%;
+    height: 4rem;
+    border: 1px solid orangered;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c95b0c;
+    font-weight: 800;
+    text-shadow: 3px 3px 8px orange;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-left:5% ;
+    margin-right: 5%;
+}
+
+.photos{
+    height: 30rem;
+    margin-top: 60px;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h3{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-right: 60%;
+    padding-top: 4px;
+    padding-bottom:4px ;
+    border-radius: 0.5rem;
+    cursor:auto;
+    background-color: white;
+}
+
+h3:hover{
+    background-color: #faf5ef;
+    border-bottom: 1px solid #ec9706;
+
+}
+
+.phtopara{
+    /* border: 1px solid black; */
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    display:  flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    /* padding-right: ; */
+}
+
+.img1{
+    background-image: url("/static/neom-axAbxUA32hE-unsplash.jpg");
+    height: 15rem;
+    width: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+p{
+    /* border: 1px solid black; */
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+
+}
+
+#phtopara3{
+    flex-direction: row;
+}
+
+#phtopara2{
+    flex-direction: row-reverse;
+
+}
+
+.img2{
+    background-image: url("/static/angela-compagnone-4Iyg6cNU7sI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 15rem;
+}
+
+.img3{
+    background-image: url("/static/david-travis-5bYxXawHOQg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 15rem;
+}
+

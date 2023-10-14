@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.homebody{
+    height: 100%;
+    width: 100%;
+    background-color: #faf5ef;
+    color:  black;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+}
+
+.parasection{
+    border: 2px solid black;
+    height: 20rem;
+    width: 20rem;
+    
+    background-color: white;
+}
+
+.homeh2{
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    background-color:orangered;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+
+}
+
+.login{
+    height: 24rem;
+    width: 20rem;
+    margin-right: 40%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.input{
+    width: 90%;
+    height: 2.7rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0.5rem;
+    padding-left: 7px;
+    color: white;
+    background-color: rgba(255, 51, 0, 0.56);
+    margin-bottom: 20px;
+}
+
+.input:hover{
+    border: 1px solid gray;
+    
+
+}
+
+#label{
+    position: relative;
+    left: 18px;
+    bottom: 5px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 470;
+}
+
+#submit{
+    width: 90%;
+    height: 2.7rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0.5rem;
+    padding-left: 7px;
+    color: white;
+    background-color:grey;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-size: large;
+    border: 2px solid gray;
+}
+
+#submit:hover{
+    background-color: rgba(128, 128, 128, 0.558);
+}
+
+#forget{
+    font-size: small;
+    border: 1px solid black;
+    margin-left: 20px;
+}
